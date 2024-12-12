@@ -14,7 +14,7 @@ images=()
 repobase="${REPOBASE:-ghcr.io/geniusdynamics}"
 # Configure the image name
 reponame="semaphoreui"
-APP_VERSION="v2.10.19"
+APP_VERSION="v2.10.22"
 
 # Create a new empty container image
 container=$(buildah from scratch)
